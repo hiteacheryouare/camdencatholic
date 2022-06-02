@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+  <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Camden Catholic -- en español</title>
-    <link rel="stylesheet" href="./styles/css/tailwind.css">
     <link rel="stylesheet" href="./styles/css/page.css">
+    <link rel="stylesheet" href="./styles/css/tailwind.css">
     <link rel="shortcut icon" href="./img/Logo_Cross2_4C_green.jpg" type="image/x-icon">
-    </head>
-    <body>
-    <nav class="flex justify-between p-4">
+    <script type="module" src="./typescript/navHider.ts"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <nav id="navText" class="flex justify-between p-4 bg-emerald-700 text-white rounded-b-lg xl:text-3xl lg:text-2xl md:text-xl sm:text-lg">
       <a href="index.html">
         <img src="./img/CCHS with Seal.jpg" alt="Camden Catholic Logo" />
       </a>
-      <a href="index.html">Home</a>
-      <a href="desc.html">Description</a>
-      <a href="has.html">What We Have</a>
-      <a href="student.html">Students</a>
-      <a href="teacher.html">Teachers</a>
-      <a href="uniform.html">Uniform</a>
+      <a href="index.html" class="hover:bg-emerald-600 hover:rounded-lg hover:p-4">Hogar</a>
+      <a href="desc.html" class="hover:bg-emerald-600 hover:rounded-lg hover:p-4">Descripción</a>
+      <a href="has.html" class="hover:bg-emerald-600 hover:rounded-lg hover:p-4">Los comodidades</a>
+      <a href="student.html" class="hover:bg-emerald-600 hover:rounded-lg hover:p-4">Los Estudiantes</a>
+      <a href="teacher.html" class="hover:bg-emerald-600 hover:rounded-lg hover:p-4">Los Profesores</a>
+      <a href="uniform.html" class="hover:bg-emerald-600 hover:rounded-lg hover:p-4">La Uniforme</a>
     </nav>
     
     
@@ -32,7 +34,7 @@
   <h1 class="pl-7 font-bold text-4xl">
     Pisos
   </h1>
-  <p class="text-center">
+  <p class="text-center xl:text-3xl lg:text-2xl md:text-xl sm:text-lg">
     Camden Catholic tiene dos pisos de escueslas. El primero tiene un comedor, y auditorio. EL piso segundo tiene una biblioteca
   </p>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTRZh59zqvbFFZMcH-s9ccqxhXwNdFLPxmYA&usqp=CAU" alt="" class="mx-auto p-4" style="width: 300px;">
@@ -42,7 +44,7 @@
   <h1 class="pl-7 font-bold text-4xl">
     EL comedor
   </h1>
-  <p class="text-center">
+  <p class="text-center xl:text-3xl lg:text-2xl md:text-xl sm:text-lg">
     El comedor tiene una pizza, bocadillos, ensaladas, y las bebidas
   </p>
   <img src="https://content.mycutegraphics.com/graphics/food/pepperoni-pizza-slice.png" alt="" class="mx-auto p-4" style="width: 300px;">

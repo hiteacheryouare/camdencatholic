@@ -5,21 +5,23 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Camden Catholic -- en español</title>
-    <link rel="stylesheet" href="./styles/css/tailwind.css">
     <link rel="stylesheet" href="./styles/css/page.css">
+    <link rel="stylesheet" href="./styles/css/tailwind.css">
     <link rel="shortcut icon" href="./img/Logo_Cross2_4C_green.jpg" type="image/x-icon">
+    <script type="module" src="./typescript/navHider.ts"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
   </head>
   <body>
-    <nav class="flex justify-between p-4">
+    <nav id="navText" class="flex justify-between p-4 bg-emerald-700 text-white rounded-b-lg xl:text-3xl lg:text-2xl md:text-xl sm:text-lg">
       <a href="index.html">
         <img src="./img/CCHS with Seal.jpg" alt="Camden Catholic Logo" />
       </a>
-      <a href="index.html">Home</a>
-      <a href="desc.html">Description</a>
-      <a href="has.html">What We Have</a>
-      <a href="student.html">Students</a>
-      <a href="teacher.html">Teachers</a>
-      <a href="uniform.html">Uniform</a>
+      <a href="index.html" class="hover:bg-emerald-600 hover:rounded-lg hover:p-4">Hogar</a>
+      <a href="desc.html" class="hover:bg-emerald-600 hover:rounded-lg hover:p-4">Descripción</a>
+      <a href="has.html" class="hover:bg-emerald-600 hover:rounded-lg hover:p-4">Los comodidades</a>
+      <a href="student.html" class="hover:bg-emerald-600 hover:rounded-lg hover:p-4">Los Estudiantes</a>
+      <a href="teacher.html" class="hover:bg-emerald-600 hover:rounded-lg hover:p-4">Los Profesores</a>
+      <a href="uniform.html" class="hover:bg-emerald-600 hover:rounded-lg hover:p-4">La Uniforme</a>
     </nav>
     
 
@@ -31,10 +33,10 @@
     </div>
     <img src="https://image.isu.pub/140917004143-870b045d711006003a8a48e5e497ba7f/jpg/page_1.jpg" class="mx-auto" alt="" width="300px">
 <div class="p-4">
-  <h1 class="pl-7 font-bold text-4xl">
+  <h1 class="pl-7 font-bold text-4xl ">
     En las clases
   </h1>
-  <p class="text-center">
+  <p class="text-center xl:text-3xl lg:text-2xl md:text-xl sm:text-lg">
     En las clases, los estudiantes de Camden Catholic prestan attention. Los estudiantes estudian y ellos sacan unos notas buenas.
   </p>
 
